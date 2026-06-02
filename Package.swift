@@ -15,10 +15,10 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.8.4"),
-        .package(url: "https://github.com/pebble8888/ed25519swift.git", from: "1.2.7"),
-        .package(url: "https://github.com/21-DOT-DEV/swift-secp256k1.git", .upToNextMinor(from: "0.10.0")),
-        .package(url: "https://github.com/apple/swift-protobuf.git", "1.19.0" ..< "2.0.0"),
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", exact: "1.8.4"),
+        .package(url: "https://github.com/pebble8888/ed25519swift.git", exact: "1.2.8"),
+        .package(url: "https://github.com/21-DOT-DEV/swift-secp256k1.git", exact: "0.10.0"),
+        .package(url: "https://github.com/apple/swift-protobuf.git", exact: "1.29.0"),
         .package(url: "https://github.com/google/grpc-binary.git", exact: "1.69.1"),
     ],
     targets: [
