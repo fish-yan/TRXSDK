@@ -19,7 +19,7 @@ let package = Package(
         .package(url: "https://github.com/pebble8888/ed25519swift.git", exact: "1.2.8"),
         .package(url: "https://github.com/21-DOT-DEV/swift-secp256k1.git", exact: "0.10.0"),
         .package(url: "https://github.com/apple/swift-protobuf.git", exact: "1.29.0"),
-        .package(url: "https://github.com/google/grpc-binary.git", exact: "1.69.1"),
+        .package(url: "https://github.com/google/grpc-binary.git", "1.83.1" ..< "1.84.0"),
     ],
     targets: [
         .target(
